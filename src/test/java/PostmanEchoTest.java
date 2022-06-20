@@ -17,7 +17,7 @@ public class PostmanEchoTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("[1].currency", equalTo("RUR"))
+                .body("[0].currency", equalTo(null))
                 ;
     }
 }
